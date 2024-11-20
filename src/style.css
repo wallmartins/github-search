@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&display=swap");
+
+/* Reset básico de CSS */
+
+/* Remove margens e preenchimentos padrões */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define fontes padrão para o corpo */
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Remove as bordas e os estilos dos links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bordas e espaçamento dos botões */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Remove as marcas do formulário */
+textarea {
+  resize: none;
+}
+
+/* Remover o estilo de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove a formatação de tabelas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Ajusta o comportamento de imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Define um comportamento mais previsível para o campo de input */
+input,
+select,
+textarea {
+  background-color: transparent;
+  font-size: inherit;
+  line-height: inherit;
+}
