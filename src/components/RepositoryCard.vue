@@ -124,6 +124,7 @@ export default defineComponent({
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   transition: transform 0.2s, box-shadow 0.2s;
+  width: 93%;
 }
 
 .repository-card:hover {
@@ -134,7 +135,6 @@ export default defineComponent({
 .card-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
   margin-bottom: 1rem;
 }
 

@@ -214,4 +214,10 @@ export default defineComponent({
   background-color: #9ca3af;
   cursor: not-allowed;
 }
+
+@media (max-width: 640px) {
+  .search-form {
+    flex-direction: column;
+  }
+}
 </style>
